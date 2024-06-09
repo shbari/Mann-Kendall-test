@@ -3,6 +3,9 @@ Mann-Kendall test. Please note that it does not compute change point.
 .....................................................................
 This code is not tested against known results yets. It is under development.
 ............................................................................'''
+'''Reference:
+DOI: https://doi.org/10.1016/j.atmosres.2016.02.008
+'''
 import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
